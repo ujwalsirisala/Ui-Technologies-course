@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>basic html form tags</title>
+</head>
+<body>
+<!--<form action="" method="GET">-->
+<form action="reginsert.php" method="POST" >
+<table width="100%" border="1" cellspacing="1">
+<tr height="50" bgcolor="silver">
+<td>firstname</td>
+<td>:</td>
+<td><input type="text" name="fname"></td>
+</tr>
+<tr height="50" bgcolor="gold">
+<td>lastname</td>
+<td>:</td>
+<td><input type="text" name="lname"></td>
+</tr>
+<tr height="50" bgcolor="silver">
+<td>email</td>
+<td>:</td>
+<td><input type="text" name="email"></td>
+</tr>
+<tr height="50" bgcolor="gold">
+<td>phone</td>
+<td>:</td>
+<td><input type="text" name="phone"></td>
+</tr>
+<tr height="50" bgcolor="silver">
+<td>gender</td>
+<td>:</td>
+<td><input type="radio" name="gender" value="male">male<input type="radio" name="gender" value="female">female</td>
+</tr>
+<tr height="50" bgcolor="gold">
+<td>languages</td>
+<td>:</td>
+<td><input type="checkbox" name="languages" value="english">english<input type="checkbox" name="languages" value="telugu">telugu<input type="checkbox" name="languages" value="hindi">hindi</td>
+</tr>
+<tr height="50" bgcolor="silver">
+<td>subjects</td>
+<td>:</td>
+<td>
+<select name="subjects">
+<option value="maths"> mathematics</option>
+<option value="physics">physics</option>
+<option value="biology"> biology</option>
+<option value="chemistry">chemistry</option>
+</select>
+</td>
+</tr>
+<tr height="50" bgcolor="gold">
+<td>upload</td>
+<td>:</td>
+<td><input type="file" name="user_file"></td>
+</tr>
+<tr height="50" bgcolor="silver">
+<td>address</td>
+<td>:</td>
+<td><textarea  name="address" rows="20" cols="50"></textarea></td>
+</tr>
+<tr height="50" bgcolor="black">
+<td></td>
+<td><button>register</button></td>
+<td></td>
+</tr>
+<!--<tr>
+<td></td>
+<td><input type="submit" ></td>
+</tr>-->
+</table>
+</form>
+</body>
+</html>
